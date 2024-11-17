@@ -59,7 +59,9 @@ do {
                 throw new Error("Choix non valide.");
         }
         alert("Voici le résultat : " + resultat);
-    } catch (error) {
+    }
+
+    catch (error) {
         alert("Erreur : " + error.message);
     }
 
